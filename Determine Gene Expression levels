@@ -1,4 +1,8 @@
 #####################################################################################################################################
+# LIBRARIES
+library(Seurat)        # for seurat objects
+library(dplyr)         # for seurat objects
+library(data.table)    # for setDT function
 
 # READ DATA 
 EC_subset = readRDS(file = "Filepath\\EC_subset.rds")
